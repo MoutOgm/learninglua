@@ -15,7 +15,6 @@ function love.load() --function to start code variables etc
   variable_true = true
   -- the function love.load() it load one time when the code is start
   -- when you require module if your module has diffent function you must call their
-  testload()
 end
 function love.draw() -- this function it use to draw
   obdraw()
