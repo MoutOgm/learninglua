@@ -1,3 +1,6 @@
+-- we can dispach programe in modules
+-- but you must import the modules
+-- require("module")
 function love.load() --function to start code variables etc
  -- in code we have space to see better the code
  -- start wih a variable it's simple
