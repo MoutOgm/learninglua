@@ -2,6 +2,7 @@
 -- but you must import the modules
 -- require("module")
 require("module")
+require("objet")
 function love.load() --function to start code variables etc
   -- in code we have space to see better the code
   -- start wih a variable it's simple
@@ -17,6 +18,7 @@ function love.load() --function to start code variables etc
   testload()
 end
 function love.draw() -- this function it use to draw
+  obdraw()
   love.graphics.print("function to print", 100, 100) -- this function have 3 arguments
     -- the what i print and coordonate (print, x, y) x and y is in pixels of window
     -- but we can print a string variable
