@@ -1,6 +1,7 @@
 -- we can dispach programe in modules
 -- but you must import the modules
 -- require("module")
+require("module")
 function love.load() --function to start code variables etc
  -- in code we have space to see better the code
  -- start wih a variable it's simple
@@ -12,6 +13,8 @@ function love.load() --function to start code variables etc
  varibale_false = false
  variable_true = true
  -- the function love.load() it load one time when the code is start
+ -- when you require module if your module has diffent function you must call their
+ module.load()
 end
 function love.draw() -- this function it use to draw
  love.graphics.print("function to print", 100, 100) -- this function have 3 arguments
